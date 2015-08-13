@@ -17,7 +17,7 @@ include_once 'config/init.php';
 $registry->router = new Router($registry);
 
  /*** set the controller path ***/
-$registry->router->setPath (__SITE_PATH . '/controllers+ED');
+$registry->router->setPath (__SITE_PATH . '/controllers+ED+VC');
 
 /*** load up the site ***/
 $registry->quadTemplate = 'default';
