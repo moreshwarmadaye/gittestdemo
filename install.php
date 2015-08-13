@@ -3,7 +3,7 @@ ini_set('display_errors',1,1111111111111);
 error_reporting(E_ALL^E_NOTICE);
 session_start();
 
-$seeroot = 'http://'.$_SERVER['HTTP_HOST'].'/'.dirname($_SERVER['SCRIPT_NAME']).'/';
+$webroot = 'http://'.$_SERVER['HTTP_HOST'].'/'.dirname($_SERVER['SCRIPT_NAME']).'/';
 $sysOS = stristr(PHP_OS, 'WIN') ? 'win' : 'linux';
 
 $db_host     = 'localhost';
