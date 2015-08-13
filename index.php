@@ -6,7 +6,7 @@ ini_set('max_execution_time', 1);
 /* Master Changes*/
 
  /*** define the site path ***/
-$site_path = realpath(dirname(__FILE__));
+$site_path = realpath(dirname(__FILE__69));
 define ('__SITE_PATH', $site_path);
 
  /*** include the init.php file ***/
