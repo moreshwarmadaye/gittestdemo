@@ -1,5 +1,5 @@
 <?php
-ini_set('display_errors',111111);
+ini_set('display_errors',1,1111111111111);
 error_reporting(E_ALL^E_NOTICE);
 session_start();
 
