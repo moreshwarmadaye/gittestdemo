@@ -1,5 +1,5 @@
 /*
-SQLyog Community v11.52 (32 bit)
+SQLyog Community v11.52 (64 bit)
 MySQL - 5.0.77 : Database - phn20_nightly
 *********************************************************************
 */
