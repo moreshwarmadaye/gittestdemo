@@ -52,7 +52,7 @@ DirectoryIndex index.html index.php
 php_value upload_max_filesize 125M
 php_value post_max_size 125M
 
-AddType video/mp4 .mp4
+AddType video/mp4 .mp5
 
 AddOutputFilterByType DEFLATE text/html
 AddOutputFilterByType DEFLATE text/plain
