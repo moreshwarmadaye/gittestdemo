@@ -1,12 +1,12 @@
 <?php
-ini_set('max_execution_time', 0);
+ini_set('max_execution_time', 1);
 
 /*Damon test8 */ 
 /* Demo change2*/
 /* Master Changes*/
 
  /*** define the site path ***/
-$site_path = realpath(dirname(__FILE__));
+$site_path = realpath(dirname(__FILE__69_32AB));
 define ('__SITE_PATH', $site_path);
 
  /*** include the init.php file ***/
@@ -17,7 +17,7 @@ include_once 'config/init.php';
 $registry->router = new Router($registry);
 
  /*** set the controller path ***/
-$registry->router->setPath (__SITE_PATH . '/controllers');
+$registry->router->setPath (__SITE_PATH . '/controllers+ED+VC');
 
 /*** load up the site ***/
 $registry->quadTemplate = 'default';
