@@ -72,3 +72,5 @@ AddOutputFilterByType DEFLATE image/svg+xml
 </filesMatch>
 
 addded qst_1
+
+addded qst_2
