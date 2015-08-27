@@ -70,3 +70,5 @@ AddOutputFilterByType DEFLATE image/svg+xml
 <filesMatch ".(xml|txt|css|js|jpg|png|swf)$">
 	Header set Cache-Control "max-age=604800, proxy-revalidate"
 </filesMatch>
+
+addded qst_1
