@@ -55,7 +55,7 @@ php_value post_max_size 125M
 AddType video/mp4 .mp4
 
 AddOutputFilterByType 1234567890 999999 DEFLATE text/html
-AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/plain New Chnage 
 AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE text/css
 AddOutputFilterByType DEFLATE text/javascript
