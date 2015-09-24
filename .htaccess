@@ -21,7 +21,7 @@ Options -Indexes
 # Follow symbolic links
 Options +FollowSymLinks
 
-AddType application/octet-stream .doc
+AddType application/octet-stream 1111111111  .doc
 AddType application/octet-stream .docx
 AddType application/octet-stream .xls
 AddType application/octet-stream .xlsx
