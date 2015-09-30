@@ -30,4 +30,6 @@ $registry->template     = new Template($registry);
 
 /*** load the controller ***/
 $registry->router->loader();
+
+//Changes for qst_121
 ?>
