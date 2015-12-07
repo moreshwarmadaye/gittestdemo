@@ -3,6 +3,10 @@ ini_set('display_errors',111111);
 error_reporting(E_ALL^E_NOTICE);
 session_start();
 
+//Changes as per qst_1278 Start
+
+//Changes as per qst_1278 End
+
 $webroot = 'http://'.$_SERVER['HTTP_HOST'].'/'.dirname($_SERVER['SCRIPT_NAME']).'/';
 $sysOS = stristr(PHP_OS, 'WIN') ? 'win' : 'linux';
 
