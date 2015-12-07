@@ -13,6 +13,9 @@
     deny from all
 </Files>
 
+# sprint_47_qst_1280 START :: 1
+
+# sprint_47_qst_1280 END :: 1
 
 
 # Don't listing directory
