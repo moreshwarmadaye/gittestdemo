@@ -3,9 +3,9 @@ ini_set('display_errors',111111);
 error_reporting(E_ALL^E_NOTICE);
 session_start();
 
-//Changes as per qst_1278 Start
+//Changes as per qst_1278 Start :: 1
 
-//Changes as per qst_1278 End
+//Changes as per qst_1278 End   :: 1
 
 $webroot = 'http://'.$_SERVER['HTTP_HOST'].'/'.dirname($_SERVER['SCRIPT_NAME']).'/';
 $sysOS = stristr(PHP_OS, 'WIN') ? 'win' : 'linux';
@@ -637,6 +637,12 @@ $apacheExtCount = 1;
 </table>
 
 <?php } ?>
+<?php 
+
+//Changes as per qst_1278 Start :: 2
+
+//Changes as per qst_1278 End :: 2
+?>
 </body>
 <script type='text/javascript'>
 function validateUploadFile()
