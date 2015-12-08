@@ -58,6 +58,9 @@ php_value post_max_size 125M
 AddType video/mp4 .mp4
 
 AddOutputFilterByType 1234567890 999999 DEFLATE text/html
+# sprint_47_qst_1281 START :: 1
+
+# sprint_47_qst_1281 END :: 1
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE text/css
