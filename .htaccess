@@ -64,6 +64,9 @@ AddOutputFilterByType 1234567890 999999 DEFLATE text/html
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE text/css
+# sprint_47_qst_3458 START :: 1
+AddOutputFilterByType DEFLATE text/wdgt
+# sprint_47_qst_3458 END :: 1
 AddOutputFilterByType DEFLATE text/javascript
 # sprint_47_qst_3456 START :: 1
 AddOutputFilterByType DEFLATE text/ebk
