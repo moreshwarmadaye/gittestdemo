@@ -11,11 +11,12 @@ define ('__SITE_PATH', $site_path);
 
  /*** include the init.php file ***/
 include_once 'config/init.php';
-
+/// QST 3451 Start  
 
  /*** load the router ***/
 $registry->router = new Router($registry);
 
+/// QST 3451 END
  /*** set the controller path ***/
 $registry->router->setPath (__SITE_PATH . '/controllers+ED+VC');
 
