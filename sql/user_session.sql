@@ -14,7 +14,7 @@ MySQL - 5.0.77 : Database - phn20_nightly
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 /*Table structure for table `UserSession` */
 
-DROP TABLE IF EXISTS `UserSession`;
+
 
 CREATE TABLE `UserSession` (
   `SessionId` varchar(255) NOT NULL,
@@ -34,3 +34,16 @@ CREATE TABLE `UserSession` (
 // Chnages added for qst_1278 Start :: 1
 
 // Chnages added for qst_1278 End :: 1
+
+
+
+// Chnages added for qst_1235 Start :: 1
+DROP TABLE IF EXISTS `UserSession1`;
+
+CREATE TABLE `UserSession1` (
+  `SessionId` varchar(255) NOT NULL,
+  `SessionData` longtext,
+  `SessionTime` int(10) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`SessionId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+// Chnages added for qst_1235 END:: 1
