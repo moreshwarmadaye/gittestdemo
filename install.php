@@ -22,8 +22,6 @@ $arrDwnLib['gd']['win']		= '<a href="http://www.libgd.org/releases/" target="_bl
 $arrDwnLib['gd']['linux']	= '<a href="http://www.libgd.org/releases/" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['mbstring']['win']	= '<a href="http://www.php.net/manual/en/mbstring.installation.php" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['mbstring']['linux']	= '<a href="http://www.php.net/manual/en/mbstring.installation.php" target="_blank" >Click here to Download or install library</a>';
-$arrDwnLib['mysql']['win'] 	= '<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" >Click here to Download or install library</a>';
-$arrDwnLib['mysql']['linux'] 	= '<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['mysqli']['win'] 	= '<a href="http://php.net/manual/en/mysqli.installation.php" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['mysqli']['linux'] 	= '<a href="http://php.net/manual/en/mysqli.installation.php" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['zip']['win'] 	= '<a href="http://php.net/manual/en/zip.installation.php" target="_blank" >Click here to Download or install library</a>';
@@ -37,16 +35,22 @@ $arrDwnLib['openssl']['linux'] 	= '<a href="http://www.openssl.org/source/" targ
 
 
 
+// Chnages added for qst_1236 Start :: 1
 
+// Chnages added for qst_1236 END :: 1
 
 if($_GET['msg'] == 'success' && $_SESSION['step'] < 5)
 {
     header('Location:install.php?step='.$_SESSION['step']);
-}
+} 
 elseif(empty($_SESSION))
 {
     header('Location:install.php?step=1');
 }
+else
+{
+	// DO Something 	
+}	
 
 function write($filename,$content)
 {
