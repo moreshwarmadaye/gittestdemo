@@ -33,6 +33,10 @@ $registry->template     = new Template($registry);
 $registry->router->loader();
 
 //Changes for qst_121
+
+// First Changes in master QST-1234
+$a = 1;
+// First Changes in master QST-1234
 ?>
 
 
