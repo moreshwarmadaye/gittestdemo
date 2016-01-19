@@ -674,7 +674,7 @@ else
     {
         document.getElementById('java').innerHTML = 'disabled';
         document.getElementById('first_next').style.display = 'none';
-        document.getElementById('java_dwn').style.display = 'block';
+        //document.getElementById('java_dwn').style.display = 'block';
     }
 }
 </script>
