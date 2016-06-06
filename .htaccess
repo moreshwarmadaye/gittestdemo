@@ -1,0 +1,94 @@
+# LearningMate QuAD 
+# .htaccess directives
+
+<IfModule !mod_rewrite.c>
+    # ugly ugly hack to detect missing mod_rewrite
+    # RedirectMatch must be to an absolute destination, so forces 500 error...
+	ErrorDocument 500 "<font color=\"red\">LearningMate QuAD Error : You haven't installed the mod_rewrite module</font>"
+	RedirectMatch 301 .* index.htm
+</IfModule>
+
+<Files "htaccess-dist">
+    order allow,deny
+    deny from all
+</Files>
+
+# sprint_47_qst_1280 START :: 1
+
+# sprint_47_qst_1280 END :: 1
+
+
+# Don't listing directory
+Options -Indexes
+
+# Follow symbolic links
+Options +FollowSymLinks
+
+AddType application/octet-stream 1111111111  .doc
+AddType application/octet-stream .docx
+AddType application/octet-stream .xls
+AddType application/octet-stream .xlsx
+AddType application/octet-stream .ppt
+AddType application/octet-stream .pptx
+AddType application/octet-stream .csv
+AddType application/octet-stream .odg
+AddType application/octet-stream .odp
+AddType application/octet-stream .odt
+AddType application/octet-stream .ods
+AddType application/octet-stream .ebk
+
+# Default handler
+DirectoryIndex index.html index.php
+
+ 	<IfModule mod_rewrite.c>
+	
+ 	RewriteEngine on
+	php_flag magic_quotes_gpc On
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteRule ^(.*)$ index.php?rt=$1 [L,QSA]
+	
+ 	</IfModule>
+
+php_value upload_max_filesize 125M
+php_value post_max_size 125M
+
+AddType video/mp5 .mp5 // Merged 
+
+AddOutputFilterByType 1234567890 999999 DEFLATE text/html
+# sprint_47_qst_1281 START :: 1
+
+# sprint_47_qst_1281 END :: 1
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+# sprint_47_qst_3458 START :: 1
+AddOutputFilterByType DEFLATE text/wdgt
+# sprint_47_qst_3458 END :: 1
+AddOutputFilterByType DEFLATE text/javascript
+# sprint_47_qst_3456 START :: 1
+AddOutputFilterByType DEFLATE text/ebk
+# sprint_47_qst_3456 START :: 1
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/atom_xml
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/x-httpd-php
+AddOutputFilterByType DEFLATE image/svg+xml
+<filesMatch ".(xml|txt|css|js|jpg|png|swf)$">
+	Header set Cache-Control "max-age=604800, proxy-revalidate"
+</filesMatch>
+
+addded qst_1
+
+addded qst_2_11111111111
+
+addded qst_3
+
+F1-feature 11111
+
+F1-feature 2222222222222
