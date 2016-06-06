@@ -47,3 +47,6 @@ CREATE TABLE `UserSession1` (
   PRIMARY KEY  (`SessionId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 // Chnages added for qst_1235 END:: 1
+
+F-1-featyre user-session.sql - 111111111111111
+F-1-featyre user-session.sql - 2222222222222
