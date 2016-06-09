@@ -73,7 +73,7 @@ AddOutputFilterByType DEFLATE text/ebk
 # sprint_47_qst_3456 START :: 1
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/xhtml+xml
-AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType f4-changes added DEFLATE application/xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/atom_xml
 AddOutputFilterByType DEFLATE application/x-javascript
