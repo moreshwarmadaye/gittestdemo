@@ -3,6 +3,11 @@ ini_set('max_execution_time', 1); /// test
 
 /*Damon test8 */ 
 /* Demo change2*/
+F6-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F6-code END
 /* Master Changes*/
 
  /*** define the site path ***/
@@ -15,6 +20,11 @@ include_once 'config/init.php';
 
  /*** load the router ***/
 $registry->router = new Router($registry);
+F6-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F6-code END
 
 /// QST 3451 END
  /*** set the controller path ***/
@@ -25,7 +35,17 @@ $registry->quadTemplate = 'default';
 $registry->site         = new Site();
 $registry->layout       = new Layout();
 $registry->site->myDebug("Request object");
+F6-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F6-code END
 $registry->site->myDebug($_REQUEST);
+F6-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F6-code END
 /*** load up the template ***/
 $registry->template     = new Template($registry);
 

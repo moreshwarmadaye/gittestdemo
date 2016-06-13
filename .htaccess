@@ -1,6 +1,10 @@
 # LearningMate QuAD 
 # .htaccess directives
-
+F6-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F6-code END
 <IfModule !mod_rewrite.c>
     # ugly ugly hack to detect missing mod_rewrite
     # RedirectMatch must be to an absolute destination, so forces 500 error...
