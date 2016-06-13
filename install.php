@@ -18,9 +18,19 @@ mysql_connect($db_host,$db_user,$db_pass);
 // Download URL array
 $arrDwnLib['curl']['win'] 	= "<a href='http://curl.haxx.se/download.html' target='_blank' >Click here to Download or install library</a>";
 $arrDwnLib['curl']['linux'] 	= '<a href="http://curl.haxx.se/download.html" target="_blank" >Click here to Download or install library</a>';
+F6-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F6-code END
 $arrDwnLib['gd']['win']		= '<a href="http://www.libgd.org/releases/" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['gd']['linux']	= '<a href="http://www.libgd.org/releases/" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['mbstring']['win']	= '<a href="http://www.php.net/manual/en/mbstring.installation.php" target="_blank" >Click here to Download or install library</a>';
+F6-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F6-code END
 $arrDwnLib['mbstring']['linux']	= '<a href="http://www.php.net/manual/en/mbstring.installation.php" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['mysqli']['win'] 	= '<a href="http://php.net/manual/en/mysqli.installation.php" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['mysqli']['linux'] 	= '<a href="http://php.net/manual/en/mysqli.installation.php" target="_blank" >Click here to Download or install library</a>';
