@@ -7,12 +7,13 @@
 	ErrorDocument 500 "<font color=\"red\">LearningMate QuAD Error : You haven't installed the mod_rewrite module</font>"
 	RedirectMatch 301 .* index.htm
 </IfModule>
+qst-124
 
 <Files "htaccess-dist">
     order allow,deny
     deny from all
 </Files>
-
+qst-124 END 
 # sprint_47_qst_1280 START :: 1
 
 # sprint_47_qst_1280 END :: 1
