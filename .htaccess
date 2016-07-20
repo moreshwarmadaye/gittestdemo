@@ -1,5 +1,7 @@
+qst-121 START
 # LearningMate QuAD 
 # .htaccess directives
+qst-121 END
 F6-code START
 111111111111111111
 222222222222222222
@@ -75,6 +77,9 @@ AddOutputFilterByType 1234567890 999999 DEFLATE text/html
 # sprint_47_qst_1281 START :: 1
 
 # sprint_47_qst_1281 END :: 1
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
 # sprint_47_qst_3458 START :: 1
 AddOutputFilterByType DEFLATE text/wdgt
 F5-more
