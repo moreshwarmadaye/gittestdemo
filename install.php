@@ -18,14 +18,27 @@ mysql_connect($db_host,$db_user,$db_pass);
 // Download URL array
 $arrDwnLib['curl']['win'] 	= "<a href='http://curl.haxx.se/download.html' target='_blank' >Click here to Download or install library</a>";
 $arrDwnLib['curl']['linux'] 	= '<a href="http://curl.haxx.se/download.html" target="_blank" >Click here to Download or install library</a>';
+F6-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F6-code END
 $arrDwnLib['gd']['win']		= '<a href="http://www.libgd.org/releases/" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['gd']['linux']	= '<a href="http://www.libgd.org/releases/" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['mbstring']['win']	= '<a href="http://www.php.net/manual/en/mbstring.installation.php" target="_blank" >Click here to Download or install library</a>';
+F6-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F6-code END
 $arrDwnLib['mbstring']['linux']	= '<a href="http://www.php.net/manual/en/mbstring.installation.php" target="_blank" >Click here to Download or install library</a>';
-$arrDwnLib['mysql']['win'] 	= '<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" >Click here to Download or install library</a>';
-$arrDwnLib['mysql']['linux'] 	= '<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['mysqli']['win'] 	= '<a href="http://php.net/manual/en/mysqli.installation.php" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['mysqli']['linux'] 	= '<a href="http://php.net/manual/en/mysqli.installation.php" target="_blank" >Click here to Download or install library</a>';
+F7-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F7-code END
 $arrDwnLib['zip']['win'] 	= '<a href="http://php.net/manual/en/zip.installation.php" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['zip']['linux'] 	= '<a href="http://php.net/manual/en/zip.installation.php" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['xsl']['win'] 	= '<a href="http://www.php.net/manual/en/xsl.installation.php" target="_blank" >Click here to Download or install library</a>';
@@ -37,16 +50,22 @@ $arrDwnLib['openssl']['linux'] 	= '<a href="http://www.openssl.org/source/" targ
 
 
 
+// Chnages added for qst_1236 Start :: 1
 
+// Chnages added for qst_1236 END :: 1
 
 if($_GET['msg'] == 'success' && $_SESSION['step'] < 5)
 {
     header('Location:install.php?step='.$_SESSION['step']);
-}
+} 
 elseif(empty($_SESSION))
 {
     header('Location:install.php?step=1');
 }
+else
+{
+	// DO Something 	
+}	
 
 function write($filename,$content)
 {
@@ -674,7 +693,7 @@ else
     {
         document.getElementById('java').innerHTML = 'disabled';
         document.getElementById('first_next').style.display = 'none';
-        document.getElementById('java_dwn').style.display = 'block';
+        //document.getElementById('java_dwn').style.display = 'block';
     }
 }
 </script>

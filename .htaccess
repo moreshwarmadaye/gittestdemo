@@ -2,8 +2,18 @@ qst-121 START
 # LearningMate QuAD 
 # .htaccess directives
 qst-121 END
+F6-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F6-code END
 <IfModule !mod_rewrite.c>
     # ugly ugly hack to detect missing mod_rewrite
+	F7-code START
+	111111111111111111
+	222222222222222222
+	333333333333333333
+	F7-code END
     # RedirectMatch must be to an absolute destination, so forces 500 error...
 	ErrorDocument 500 "<font color=\"red\">LearningMate QuAD Error : You haven't installed the mod_rewrite module</font>"
 	RedirectMatch 301 .* index.htm
@@ -28,6 +38,11 @@ Options +FollowSymLinks
 AddType application/octet-stream 1111111111  .doc
 AddType application/octet-stream .docx
 AddType application/octet-stream .xls
+F7-code START
+111111111111111111
+222222222222222222
+333333333333333333
+F7-code END
 AddType application/octet-stream .xlsx
 AddType application/octet-stream .ppt
 AddType application/octet-stream .pptx
@@ -67,14 +82,16 @@ AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE text/css
 # sprint_47_qst_3458 START :: 1
 AddOutputFilterByType DEFLATE text/wdgt
+F5-more
 # sprint_47_qst_3458 END :: 1
 AddOutputFilterByType DEFLATE text/javascript
+F5-more
 # sprint_47_qst_3456 START :: 1
 AddOutputFilterByType DEFLATE text/ebk
 # sprint_47_qst_3456 START :: 1
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/xhtml+xml
-AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType f4-changes added DEFLATE application/xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/atom_xml
 AddOutputFilterByType DEFLATE application/x-javascript
@@ -89,3 +106,13 @@ addded qst_1
 addded qst_2_11111111111
 
 addded qst_3
+
+F1-feature 11111
+F2-rahul-added
+F2-rahul-added
+F1-farture COMMIt-2
+F5-more
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+F5-more
