@@ -1,6 +1,7 @@
+qst-121 START
 # LearningMate QuAD 
 # .htaccess directives
-
+qst-121 END
 <IfModule !mod_rewrite.c>
     # ugly ugly hack to detect missing mod_rewrite
     # RedirectMatch must be to an absolute destination, so forces 500 error...
