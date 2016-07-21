@@ -9,7 +9,7 @@ session_start();
 
 $webroot = 'http://'.$_SERVER['HTTP_HOST'].'/'.dirname($_SERVER['SCRIPT_NAME']).'/';
 $sysOS = stristr(PHP_OS, 'WIN') ? 'win' : 'linux';
-
+f20 code 
 $db_host     = 'localhost';
 $db_user     = 'root';
 $db_pass     = '';
@@ -22,6 +22,7 @@ F6-code START
 111111111111111111
 222222222222222222
 333333333333333333
+f20 code 
 F6-code END
 $arrDwnLib['gd']['win']		= '<a href="http://www.libgd.org/releases/" target="_blank" >Click here to Download or install library</a>';
 $arrDwnLib['gd']['linux']	= '<a href="http://www.libgd.org/releases/" target="_blank" >Click here to Download or install library</a>';
