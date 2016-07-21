@@ -9,12 +9,12 @@ session_start();
 
 $webroot = 'http://'.$_SERVER['HTTP_HOST'].'/'.dirname($_SERVER['SCRIPT_NAME']).'/';
 $sysOS = stristr(PHP_OS, 'WIN') ? 'win' : 'linux';
-
+f3 code
 $db_host     = 'localhost';
 $db_user     = 'root';
 $db_pass     = '';
 mysql_connect($db_host,$db_user,$db_pass);
-
+f3 code ENDS
 // Download URL array
 $arrDwnLib['curl']['win'] 	= "<a href='http://curl.haxx.se/download.html' target='_blank' >Click here to Download or install library</a>";
 $arrDwnLib['curl']['linux'] 	= '<a href="http://curl.haxx.se/download.html" target="_blank" >Click here to Download or install library</a>';
