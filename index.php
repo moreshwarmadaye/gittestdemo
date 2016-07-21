@@ -4,13 +4,16 @@ ini_set('max_execution_time', 1); /// test
 /*Damon test8 */ 
 F7-code START
 111111111111111111
+f1-code 
 222222222222222222
+f1-code 
 333333333333333333
 F7-code END
 /* Demo change2*/
 F6-code START
 111111111111111111
 222222222222222222
+f1-code 
 333333333333333333
 F6-code END
 /* Master Changes*/
@@ -18,7 +21,7 @@ F6-code END
  /*** define the site path ***/
 $site_path = realpath(dirname(__FILE__69_32AB));
 define ('__SITE_PATH', $site_path);
-
+f1-code 
  /*** include the init.php file ***/
 include_once 'config/init.php';
 /// QST 3451 Start  
